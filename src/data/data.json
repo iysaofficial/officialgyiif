@@ -1,0 +1,77 @@
+{
+  "Header": {
+    "coming": "WELCOME TO",
+    "title": "GLOBAL YOUTH INVENTION AND INNOVATION FAIR",
+    "paragraph": "COMING SOON 2024"
+  },
+  "About": {
+    "title": "GLOBAL YOUTH INVENTION AND INNOVATION FAIR",
+    "paragraph": "Milenial generation is an individual that experiencing development especially for emotional on psychologically. so that the milenials are the potential for human resources for development both now and in thefuture. Therefore, the millennial generation is a generation that hasstrong creativity and initiative that is able to produce things such asinvention and innovation. hoped that it will make it easier for the nextgeneration to use the inventions that have been created by the current generation as a solution in the future.",
+    "paragraph2": "IYSA as an institution that cares about education and young researchers who can carry out innovation and discovery activities to solve problems in society. It is not only new to the mind (cognitive), but also new to the civilization acceptance for development. That's why. IYSA has several national and international science invention, innovation and project competitions. Through this activity, students from elementary, junior high, college and public to participate by presenting their projects in front of the judges. In collaboration with Department of Food Science and Technology, Institut Pertanian Bogor (IPB), IYSA will hold an International Invention and Innovation competition titled Global Youth Invention and Innovation Fair (GYIIF) As the learning platform to nurture the future scientist!",
+    "Why": [
+      "Lorem ipsum dolor",
+      "Tempor incididunt",
+      "Lorem ipsum dolor",
+      "Incididunt ut labore"
+    ],
+    "Why2": [
+      "Aliquip ex ea commodo",
+      "Lorem ipsum dolor",
+      "Exercitation ullamco",
+      "Lorem ipsum dolor"
+    ]
+  },
+  "Services": [
+    {
+      "icon": "fa fa-flask",
+      "name": "Social Science"
+    },
+    {
+      "icon": "fa fa-pagelines",
+      "name": "Environmental Science"
+    },
+    {
+      "icon": "fa fa-building-o",
+      "name": "Innovation Science"
+    },
+    {
+      "icon": "fa fa-male",
+      "name": " Life Sciences"
+    },
+    {
+      "icon": "fa fa-cog",
+      "name": "Engineering and Technology"
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Physics"
+    }
+  ],
+
+  "Team": [
+    {
+      "img": "./public/img/team/iysa.png"
+    },
+    {
+      "img": "./public/img/team/logo-ITP3.png"
+    }
+  ],
+  "Contact": {
+    "address": "Jalan Kemang No. 63 RT. 3 RW. 06 Pasir Putih, Kecamatan Sawangan, Kota Depok, Jawa Barat 16511, Indonesia. ",
+    "phone": "0817 7091 4129",
+    "email": "gyiif.iysa@gmail.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "image": "./public/img/team/iysa.png",
+      "title": "Lorem ipsum"
+    },
+    {
+      "image": "./public/img/team/logo-ITP3.png",
+      "title": "Lorem ipsum"
+    }
+  ]
+}
