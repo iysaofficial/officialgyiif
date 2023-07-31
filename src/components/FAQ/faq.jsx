@@ -82,6 +82,46 @@ export const Faq = (props) => {
                 ))}
               </div>
             </div>
+
+            <div className="faq-title text-center pb-3">
+              <br />
+              <br />
+              <h2>After the Event</h2>
+            </div>
+
+            <div className="col-md-12">
+              <div className="faq" id="accordion">
+                {data3.map((item, i) => (
+                  <div className="card">
+                    <div className="card-header" id="faqHeading-1">
+                      <div className="mb-0">
+                        <h5
+                          className="faq-title"
+                          data-toggle="collapse"
+                          data-target={item.datatarget}
+                          data-aria-expanded="true"
+                          data-aria-controls="faqCollapse-during-1"
+                        >
+                          <span className="badge">{item.no}</span>
+                          {item.question}
+                        </h5>
+                      </div>
+                    </div>
+                    <div
+                      id={item.id}
+                      class="collapse"
+                      aria-labelledby="faqHeading-1"
+                      data-parent="#accordion"
+                    >
+                      <div className="card-body">
+                        <p>{item.answer}</p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
@@ -210,4 +250,56 @@ const data2 = [
     answer:
       "You can start tidying up the booth when all the teams have finished being judged, so if you have finished judging you can visit the booths of other participants first",
   },
+];
+
+const data3 = [
+  {
+    no: "1",
+    datatarget: "#faqCollapse-during-1",
+    id: "faqCollapse-during-1",
+    question: "When will the winners be announced?",
+    answer:
+      "Announcement of winners is held on the last day of each event, you can check the date on the schedule listed in the Guide Book.",
+  },
+  {
+    no: "2",
+    datatarget: "#faqCollapse-during-2",
+    id: "faqCollapse-during-2",
+    question:
+      "Where can we see the winning results?",
+    answer:
+      "You can check the final results on the official website of the event you are participating in.",
+  },
+  {
+    no: "3",
+    datatarget: "#faqCollapse-during-3",
+    id: "faqCollapse-during-3",
+    question: "3When will the E-certificate be sent?",
+    answer:
+      "IYSA DOES NOT send E-Certificates to National participants or Indonesian Participants who take part in online events. Online National Participants will only receive a certificate in printed/hard form which will later be sent along with the medals via the JNE expedition.",
+  },
+  {
+    no: "4",
+    datatarget: "#faqCollapse-during-4",
+    id: "faqCollapse-during-4",
+    question: "When is the online delivery of participant certificates?",
+    answer:
+      'The certificate will be sent no later than one month after the announcement of the winner. You can periodically check the delivery receipt that we sent on the Whatsapp group whether your certificate has been sent or not.',
+  },
+  {
+    no: "5",
+    datatarget: "#faqCollapse-during-5",
+    id: "faqCollapse-during-5",
+    question: "Where can we get a supervisor certificate?",
+    answer:
+      "You can see and download the supervisor certificate on the official website of the event you are participating in.",
+  },
+  {
+    no: "6",
+    datatarget: "#faqCollapse-during-6",
+    id: "faqCollapse-during-6",
+    question: "How to do medal doubling?",
+    answer:
+      "For offline participants, you can immediately duplicate the medals on the spot after the announcement of the winners takes place. And for online participants, you can duplicate the medals via the link we sent on the Whatsapp group, we will send duplicate information on the Whatsapp group no later than 2 days after the announcement of the winner.",
+  }
 ];
