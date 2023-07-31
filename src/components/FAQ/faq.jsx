@@ -100,7 +100,7 @@ export const Faq = (props) => {
                           data-toggle="collapse"
                           data-target={item.datatarget}
                           data-aria-expanded="true"
-                          data-aria-controls="faqCollapse-during-1"
+                          data-aria-controls="faqCollapse-After-2"
                         >
                           <span className="badge">{item.no}</span>
                           {item.question}
@@ -255,16 +255,16 @@ const data2 = [
 const data3 = [
   {
     no: "1",
-    datatarget: "#faqCollapse-during-1",
-    id: "faqCollapse-during-1",
+    datatarget: "#faqCollapse-After-1",
+    id: "faqCollapse-After-1",
     question: "When will the winners be announced?",
     answer:
       "Announcement of winners is held on the last day of each event, you can check the date on the schedule listed in the Guide Book.",
   },
   {
     no: "2",
-    datatarget: "#faqCollapse-during-2",
-    id: "faqCollapse-during-2",
+    datatarget: "#faqCollapse-After-2",
+    id: "faqCollapse-After-2",
     question:
       "Where can we see the winning results?",
     answer:
@@ -272,32 +272,32 @@ const data3 = [
   },
   {
     no: "3",
-    datatarget: "#faqCollapse-during-3",
-    id: "faqCollapse-during-3",
+    datatarget: "#faqCollapse-After-3",
+    id: "faqCollapse-After-3",
     question: "3When will the E-certificate be sent?",
     answer:
       "IYSA DOES NOT send E-Certificates to National participants or Indonesian Participants who take part in online events. Online National Participants will only receive a certificate in printed/hard form which will later be sent along with the medals via the JNE expedition.",
   },
   {
     no: "4",
-    datatarget: "#faqCollapse-during-4",
-    id: "faqCollapse-during-4",
+    datatarget: "#faqCollapse-After-4",
+    id: "faqCollapse-After-4",
     question: "When is the online delivery of participant certificates?",
     answer:
       'The certificate will be sent no later than one month after the announcement of the winner. You can periodically check the delivery receipt that we sent on the Whatsapp group whether your certificate has been sent or not.',
   },
   {
     no: "5",
-    datatarget: "#faqCollapse-during-5",
-    id: "faqCollapse-during-5",
+    datatarget: "#faqCollapse-After-5",
+    id: "faqCollapse-After-5",
     question: "Where can we get a supervisor certificate?",
     answer:
       "You can see and download the supervisor certificate on the official website of the event you are participating in.",
   },
   {
     no: "6",
-    datatarget: "#faqCollapse-during-6",
-    id: "faqCollapse-during-6",
+    datatarget: "#faqCollapse-After-6",
+    id: "faqCollapse-After-6",
     question: "How to do medal doubling?",
     answer:
       "For offline participants, you can immediately duplicate the medals on the spot after the announcement of the winners takes place. And for online participants, you can duplicate the medals via the link we sent on the Whatsapp group, we will send duplicate information on the Whatsapp group no later than 2 days after the announcement of the winner.",
