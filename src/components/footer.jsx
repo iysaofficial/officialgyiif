@@ -71,7 +71,7 @@ export const Footer = (props) => {
                 <p>
                   &copy; 2022 Official GYIIF. Design by{" "}
                   <a href="./#" rel="nofollow">
-                    Web Developer
+                    IYSA IT
                   </a>
                 </p>
               </div>
