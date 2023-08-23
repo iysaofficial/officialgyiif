@@ -45,7 +45,7 @@ export const Contact = (props) => {
                   get back to you as soon as possible.
                 </p>
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
+              <form name="sentMessage" action="https://formspree.io/f/mknlrzbr" method="POST">
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
@@ -56,7 +56,6 @@ export const Contact = (props) => {
                         className="form-control"
                         placeholder="Name"
                         required
-                        onChange={handleChange}
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -70,7 +69,6 @@ export const Contact = (props) => {
                         className="form-control"
                         placeholder="Email"
                         required
-                        onChange={handleChange}
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -84,7 +82,6 @@ export const Contact = (props) => {
                     rows="4"
                     placeholder="Message"
                     required
-                    onChange={handleChange}
                   ></textarea>
                   <p className="help-block text-danger"></p>
                 </div>
