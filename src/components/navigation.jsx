@@ -40,7 +40,7 @@ export const Navigation = (props) => {
                 href="#"
                 data-toggle="dropdown"
               >
-                News
+                Media Coverage
                 <span>
                   <i className="ti-angle-down"></i>
                 </span>
