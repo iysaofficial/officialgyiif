@@ -135,10 +135,29 @@ export const Navigation = (props) => {
                 </li>
               </ul>
             </li>
-            <li>
-              <a href="#portfolio" className="page-scroll">
+            <li className="nav-item dropdown @@FinalResult">
+              <a
+                className="nav-link dropdown-toggle"
+                href="#"
+                data-toggle="dropdown"
+              >
                 Gallery
+                <span>
+                  <i className="ti-angle-down"></i>
+                </span>
               </a>
+
+              <ul className="dropdown-menu">
+                <li>
+                  <a
+                    className="dropdown-item"
+                    href="https://drive.google.com/drive/folders/1qAs5LEt9Z5JQjBL8IzxbaTKgvRALq-Jt?usp=drive_link"
+                    target="_blank"
+                  >
+                    2023
+                  </a>
+                </li>
+              </ul>
             </li>
 
             <li>
@@ -150,33 +169,29 @@ export const Navigation = (props) => {
                 Certificate
               </a>
             </li>
-
-            <li className="nav-item @@faq">
-              <a className="nav-link" href="#FAQ">
+            <li className="nav-item @@faq ">
+              <a className="nav-link page-scroll" href="#FAQ">
                 Faq
               </a>
             </li>
-
             <li>
               <a href="#contact" className="page-scroll">
                 Contact Us
               </a>
             </li>
-
             {/* NAVBAR GUIDE BOOK */}
-            {/* <li className="nav-item dropdown @@FinalResult">
+            <li className="nav-item dropdown @@FinalResult">
               <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Guide Book
                 <span>
                   <i className="ti-angle-down"></i>
                 </span>
               </a>
-
               <ul className="dropdown-menu">
                 <li>
                   <a className="dropdown-item" href="https://drive.google.com/file/d/1kjEQDn9qmt0WXlWyfDRGR238PNnqkDGT/view?usp=share_link" target="_blank">2023</a>
                 </li>
               </ul>
-            </li> */}
+            </li>
           </ul>
         </div>
       </div>

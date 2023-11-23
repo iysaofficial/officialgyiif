@@ -8,6 +8,7 @@ import { Gallery } from "./components/gallery";
 import { Team } from "./components/Team";
 import { Testimonials } from "./components/testimonials";
 import { Faq } from "./components/FAQ/faq";
+import { Process } from "./components/Registration Process/process";
 import { Contact } from "./components/contact";
 import { Footer } from "./components/footer";
 // import  guideBook from "./components/guideBook";
@@ -31,7 +32,8 @@ const App = () => {
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
-      <Gallery data={landingPageData.Gallery} />
+      {/* <Gallery data={landingPageData.Gallery} /> */}
+      <Process data={landingPageData.Process} />
       <Services data={landingPageData.Services} />
       <Faq data={landingPageData.Faq} />
 

@@ -1,0 +1,39 @@
+.process-section{
+    padding: 10rem 0 10rem 0;
+}
+
+.process-section h1{
+    font-weight: 900;
+    text-align: center;
+    color: #333;
+    text-decoration: underline;
+    margin-bottom: 5rem;
+}
+.process-section .process-work {
+    margin: 5rem 0 5rem 0 ;
+}
+.process-section .process-work h2{
+    font-weight: 700;
+    font-size: 34px;
+}
+.process-section .process-work .number {
+    text-align: center;
+    color: black;
+    background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+    border: 1px dashed white;
+    border-radius: 50%;
+    font-size: 28px;
+    font-weight: 800;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: white;
+    line-height: 30px;
+    margin-right: 5px;
+}
+
+@media (max-width :768px){
+    .process-section .process-work h2{
+        font-size: 22px;
+    }
+}
