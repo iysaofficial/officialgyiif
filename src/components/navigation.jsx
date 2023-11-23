@@ -180,7 +180,7 @@ export const Navigation = (props) => {
               </a>
             </li>
             {/* NAVBAR GUIDE BOOK */}
-            <li className="nav-item dropdown @@FinalResult">
+            {/* <li className="nav-item dropdown @@FinalResult">
               <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Guide Book
                 <span>
                   <i className="ti-angle-down"></i>
@@ -191,7 +191,7 @@ export const Navigation = (props) => {
                   <a className="dropdown-item" href="https://drive.google.com/file/d/1kjEQDn9qmt0WXlWyfDRGR238PNnqkDGT/view?usp=share_link" target="_blank">2023</a>
                 </li>
               </ul>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
