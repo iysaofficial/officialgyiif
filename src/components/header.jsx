@@ -29,11 +29,10 @@ export const Header = (props) => {
                 </h2>
                 {/* REGIST BUTTON */}
                 <a
-                  href="https://bit.ly/GYIIF-2024"
-                  target="_blank"
+                  href=""
                   className="btn btn-custom btn-lg page-scroll"
                 >
-                  Registration
+                  Close Registration
                 </a>{' '}
                 {/* GUIDEBOOK BUTTON */}
                 <a
