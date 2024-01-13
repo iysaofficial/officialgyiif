@@ -134,7 +134,7 @@ const data = [
     no: "1",
     datatarget: "#faqCollapse-1",
     id: "faqCollapse-1",
-    question: "MMinsa, when will we get our LoA? Where will it be sent?",
+    question: "Minsa, when will we get our LoA? Where will it be sent?",
     answer:
       "After we receive your registration, we will send a confirmation email within 1X24 hours, and for LoA we will send it to the team leader's email address within 3X24 hours after registration.",
   },
