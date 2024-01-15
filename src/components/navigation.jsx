@@ -30,14 +30,13 @@ export const Navigation = (props) => {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#page-top" className="page-scroll">
+              <a href="/" className="page-scroll">
                 Home
               </a>
             </li>
             <li className="nav-item dropdown @@FinalResult">
               <a
                 className="nav-link dropdown-toggle"
-                href="#"
                 data-toggle="dropdown"
               >
                 Media Coverage
@@ -52,6 +51,7 @@ export const Navigation = (props) => {
                     className="nav-news dropdown-item "
                     href="https://kemahasiswaan.umsu.ac.id/mahasiswa-umsu-berhasil-meraih-medali-emas-global-youth-invention-and-innovation-fair-gyiif-2023-di-institut-pertanian-bogor/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Mahasiswa UMSU Berhasil Meraih Medali Emas GYIIF 2023
                   </a>
@@ -61,6 +61,7 @@ export const Navigation = (props) => {
                     className="nav-news dropdown-item "
                     href="https://news.bakrie.ac.id/category/prestasi/1427-raihan-bronze-medal-oleh-mahasiswa-sistem-informasi-pada-gyiif-2023"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Raihan Bronze Medal Oleh Mahasiswa Sistem Informasi Pada
                     GYIIF 2023
@@ -71,6 +72,7 @@ export const Navigation = (props) => {
                     className="nav-news dropdown-item "
                     href="https://unsoed.ac.id/id/delegasi-unsoed-raih-gold-medalist-global-youth-invention-innovation-gyiif-2023"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Delegasi UNSOED Raih Gold Medal GYIIF 2023
                   </a>
@@ -80,6 +82,7 @@ export const Navigation = (props) => {
                     className="dropdown-item "
                     href="https://drive.google.com/file/d/15kh-LQZkfM7OIu_JuRLl7LhLanf5QdwE/view?usp=sharing"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Press Release 2023
                   </a>
@@ -102,8 +105,17 @@ export const Navigation = (props) => {
                 <li>
                   <a
                     className="dropdown-item"
+                    href="https://drive.google.com/file/d/1ZoRVLyVmy52Mvl9LweAAgxDpF5dPXSMc/view?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    2024
+                  </a>
+                  <a
+                    className="dropdown-item"
                     href="https://drive.google.com/file/d/1ysBGO0QXFyA027UJDfXFh_k-G_2rTD-N/view?usp=sharing"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     2023
                   </a>
@@ -114,7 +126,6 @@ export const Navigation = (props) => {
             <li className="nav-item dropdown @@Curation">
               <a
                 className="nav-link dropdown-toggle"
-                href="#"
                 data-toggle="dropdown"
               >
                 Curation
@@ -129,6 +140,7 @@ export const Navigation = (props) => {
                     className="dropdown-item"
                     href="https://drive.google.com/drive/folders/1dMkwPR-tSI3LORGagyfC52qlpmqSyG_3?usp=sharing"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Curation 2023
                   </a>
@@ -138,7 +150,6 @@ export const Navigation = (props) => {
             <li className="nav-item dropdown @@FinalResult">
               <a
                 className="nav-link dropdown-toggle"
-                href="#"
                 data-toggle="dropdown"
               >
                 Gallery
@@ -153,6 +164,7 @@ export const Navigation = (props) => {
                     className="dropdown-item"
                     href="https://drive.google.com/drive/folders/1qAs5LEt9Z5JQjBL8IzxbaTKgvRALq-Jt?usp=drive_link"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     2023
                   </a>
@@ -164,13 +176,14 @@ export const Navigation = (props) => {
               <a
                 href="https://drive.google.com/drive/folders/1Ct5_z9thpDI9-Zr9cYZOfBklt4E6YRS1?usp=share_link"
                 target="_blank"
+                rel="noreferrer"
                 className="page-scroll"
               >
                 Certificate
               </a>
             </li>
             <li className="nav-item @@faq ">
-              <a className="nav-link page-scroll" href="#FAQ">
+              <a className="nav-link page-scroll" href="/faq">
                 Faq
               </a>
             </li>

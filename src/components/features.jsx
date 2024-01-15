@@ -1,5 +1,3 @@
-import { Card } from "react-bootstrap";
-import CardHeader from "react-bootstrap/esm/CardHeader";
 
 export const Features = (props) => {
   return (
