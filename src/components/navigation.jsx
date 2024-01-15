@@ -57,6 +57,16 @@ export const Navigation = (props) => {
                   </a>
                 </li>
                 <li>
+                <li>
+                  <a
+                    className="dropdown-item "
+                    href="https://drive.google.com/file/d/1UVCaBsvxjac-0OF7VCAOfPJEOvskYBsz/view?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Press Release 2024
+                  </a>
+                </li>
                   <a
                     className="nav-news dropdown-item "
                     href="https://news.bakrie.ac.id/category/prestasi/1427-raihan-bronze-medal-oleh-mahasiswa-sistem-informasi-pada-gyiif-2023"
