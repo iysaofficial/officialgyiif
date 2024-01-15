@@ -27,21 +27,23 @@ export const Header = (props) => {
                   {props.data ? props.data.title : 'Loading'}
                   {/* <span></span> */}
                 </h2>
+
                 {/* REGIST BUTTON */}
-                <a
+                {/* <a
                   href=""
                   className="btn btn-custom btn-lg page-scroll"
                 >
-                  Close Registration
-                </a>{' '}
+                  COMING SOON 2025
+                </a>{' '} */}
                 {/* GUIDEBOOK BUTTON */}
-                <a
+                {/* <a
                   href="https://drive.google.com/file/d/11l6b0ymm1pi-XlGBsBQYvqQUbGe46Iys/view?usp=sharing"
                   target="_blank"
                   className="btn btn-custom btn-lg page-scroll"
                 >
                   GuideBook
-                </a>{' '}
+                </a>{' '} */}
+
               </div>
             </div>
           </div>
