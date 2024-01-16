@@ -54,9 +54,6 @@ export const Footer = (props) => {
                   <a href="#about">About</a>
                 </li>
                 <li style={{ marginTop: "5px" }}>
-                  <a href="#portfolio">Gallery</a>
-                </li>
-                <li style={{ marginTop: "5px" }}>
                   <a href="#contact">Contact</a>
                 </li>
               </ul>
