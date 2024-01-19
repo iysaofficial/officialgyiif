@@ -35,10 +35,7 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li className="nav-item dropdown @@FinalResult">
-              <a
-                className="nav-link dropdown-toggle"
-                data-toggle="dropdown"
-              >
+              <a className="nav-link dropdown-toggle" data-toggle="dropdown">
                 Media Coverage
                 <span>
                   <i className="ti-angle-down"></i>
@@ -134,10 +131,7 @@ export const Navigation = (props) => {
             </li>
 
             <li className="nav-item dropdown @@Curation">
-              <a
-                className="nav-link dropdown-toggle"
-                data-toggle="dropdown"
-              >
+              <a className="nav-link dropdown-toggle" data-toggle="dropdown">
                 Curation
                 <span>
                   <i className="ti-angle-down"></i>
@@ -146,6 +140,14 @@ export const Navigation = (props) => {
 
               <ul className="dropdown-menu">
                 <li>
+                  <a
+                    className="dropdown-item"
+                    href="https://drive.google.com/drive/folders/1ZykbgV1R2M9ILRT1QUn4RWCwcWjpsQVN?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Curation 2024
+                  </a>
                   <a
                     className="dropdown-item"
                     href="https://drive.google.com/drive/folders/1dMkwPR-tSI3LORGagyfC52qlpmqSyG_3?usp=sharing"
@@ -158,10 +160,7 @@ export const Navigation = (props) => {
               </ul>
             </li>
             <li className="nav-item dropdown @@FinalResult">
-              <a
-                className="nav-link dropdown-toggle"
-                data-toggle="dropdown"
-              >
+              <a className="nav-link dropdown-toggle" data-toggle="dropdown">
                 Gallery
                 <span>
                   <i className="ti-angle-down"></i>
