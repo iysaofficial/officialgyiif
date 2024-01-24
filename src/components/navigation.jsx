@@ -38,7 +38,7 @@ export const Navigation = (props) => {
               <a className="nav-link dropdown-toggle" data-toggle="dropdown">
                 Media Coverage
                 <span>
-                  <i className="ti-angle-down"></i>
+                  <i className="fas fa-caret-down"></i>
                 </span>
               </a>
 
@@ -55,8 +55,27 @@ export const Navigation = (props) => {
                 </li>
                 <li>
                   <a
+                    className="dropdown-item "
+                    href="https://drive.google.com/file/d/15kh-LQZkfM7OIu_JuRLl7LhLanf5QdwE/view?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Press Release 2023
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="dropdown-item "
+                    href="/news"
+                    rel="noreferrer"
+                  >
+                    News
+                  </a>
+                </li>
+                {/* <li>
+                  <a
                     className="nav-news dropdown-item "
-                    href="https://kemahasiswaan.umsu.ac.id/mahasiswa-umsu-berhasil-meraih-medali-emas-global-youth-invention-and-innovation-fair-gyiif-2023-di-institut-pertanian-bogor/"
+                    href=""
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -83,17 +102,7 @@ export const Navigation = (props) => {
                   >
                     Delegasi UNSOED Raih Gold Medal GYIIF 2023
                   </a>
-                </li>
-                <li>
-                  <a
-                    className="dropdown-item "
-                    href="https://drive.google.com/file/d/15kh-LQZkfM7OIu_JuRLl7LhLanf5QdwE/view?usp=sharing"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Press Release 2023
-                  </a>
-                </li>
+                </li> */}
               </ul>
             </li>
             <li className="nav-item dropdown @@FinalResult">
@@ -104,7 +113,7 @@ export const Navigation = (props) => {
               >
                 List Of Winners
                 <span>
-                  <i className="ti-angle-down"></i>
+                  <i className="fas fa-caret-down"></i>
                 </span>
               </a>
 
@@ -134,7 +143,7 @@ export const Navigation = (props) => {
               <a className="nav-link dropdown-toggle" data-toggle="dropdown">
                 Curation
                 <span>
-                  <i className="ti-angle-down"></i>
+                  <i className="fas fa-caret-down"></i>
                 </span>
               </a>
 
@@ -163,7 +172,7 @@ export const Navigation = (props) => {
               <a className="nav-link dropdown-toggle" data-toggle="dropdown">
                 Gallery
                 <span>
-                  <i className="ti-angle-down"></i>
+                  <i className="fas fa-caret-down"></i>
                 </span>
               </a>
 

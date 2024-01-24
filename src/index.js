@@ -6,6 +6,10 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 import Faqpages from './pages/faqpages';
+import Listnews from './pages/news/listnews';
+
+import PageNews1 from './pages/news/PageNews1';
+import PageNews2 from './pages/news/PageNews2';
 
 const router = createBrowserRouter([
   {
@@ -15,6 +19,18 @@ const router = createBrowserRouter([
   {
     path: "/faq",
     element: <Faqpages />
+  },
+  {
+    path: "/news",
+    element: <Listnews />
+  },
+  {
+    path: "/pagenews1",
+    element: <PageNews1 />
+  },
+  {
+    path: "/pagenews2",
+    element: <PageNews2 />
   }
 ]);
 

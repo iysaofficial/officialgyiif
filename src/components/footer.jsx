@@ -1,4 +1,5 @@
 // import logo from '../public/img/gyifLogo.png';
+import "../asset/js/main"
 
 export const Footer = (props) => {
   return (
@@ -75,6 +76,9 @@ export const Footer = (props) => {
             </section>
           </div>
         </div>
+      <button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top">
+          <i class="fas fa-arrow-up"></i>
+      </button>
       </div>
     </div>
   );

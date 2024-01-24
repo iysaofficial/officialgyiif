@@ -73,6 +73,15 @@ hr {
 
 /* tambahan */
 
+#btn-back-to-top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: none;
+  z-index: 1000;
+  background-color: var(--primary-color);
+  }
+
 .tulisan-tengah {
   text-align: justify;
 }
@@ -158,6 +167,10 @@ hr {
 }
 .navbar-default .navbar-toggle:hover > .icon-bar {
   background-color: #608dfd;
+}
+
+.nav .nav-item i{
+  margin-left: 5px;
 }
 .section-title {
   margin-bottom: 70px;

@@ -41,7 +41,6 @@ const App = () => {
       {/* <Team/>    */}
       <Contact data={landingPageData.Contact} />
       <Footer />
-      <guideBook />
     </div>
   );
 };
