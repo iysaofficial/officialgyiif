@@ -121,7 +121,7 @@ export const Navigation = (props) => {
                 <li>
                   <a
                     className="dropdown-item"
-                    href="https://drive.google.com/file/d/1ZoRVLyVmy52Mvl9LweAAgxDpF5dPXSMc/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1p6w-6P7JLfJP94kmJWABuJn16TENiw4x/view?usp=drive_link"
                     target="_blank"
                     rel="noreferrer"
                   >
