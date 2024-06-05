@@ -11,3 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.low-section {
+  background: #fdfdfd;
+  min-height: 100vh;
+  padding: 15vh 0 0;
+}
+
+.low-section .lowtahun{
+  background: #ffffff;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+  padding: 5rem;
+}
+
+.low-section .low .title h2 {
+  position: relative;
+  margin-bottom: 45px;
+  display: inline-block;
+  font-weight: 600;
+  line-height: 1;
+}
+.low-section .low .title h2::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 60px;
+  height: 2px;
+  background: #007bff;
+  bottom: -25px;
+  margin-left: -30px;
+}
+.low-section .low .title p {
+  padding: 0 190px;
+  margin-bottom: 10px;
+}
+
+.low-section .low .content .btn{
+  margin: 1rem;
+}

@@ -105,38 +105,10 @@ export const Navigation = (props) => {
                 </li> */}
               </ul>
             </li>
-            <li className="nav-item dropdown @@FinalResult">
-              <a
-                className="nav-link dropdown-toggle"
-                href="#"
-                data-toggle="dropdown"
-              >
-                List Of Winners
-                <span>
-                  <i className="fas fa-caret-down"></i>
-                </span>
+            <li className="nav-item @@faq ">
+              <a className="nav-link page-scroll" href="/lowtahun">
+                List of winners
               </a>
-
-              <ul className="dropdown-menu">
-                <li>
-                  <a
-                    className="dropdown-item"
-                    href="https://drive.google.com/file/d/1p6w-6P7JLfJP94kmJWABuJn16TENiw4x/view?usp=drive_link"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    2024
-                  </a>
-                  <a
-                    className="dropdown-item"
-                    href="https://drive.google.com/file/d/1ysBGO0QXFyA027UJDfXFh_k-G_2rTD-N/view?usp=sharing"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    2023
-                  </a>
-                </li>
-              </ul>
             </li>
 
             <li className="nav-item dropdown @@Curation">

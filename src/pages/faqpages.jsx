@@ -1,4 +1,3 @@
-
 import { Faq } from "../components/FAQ/faq";
 import { Navigation } from "../components/navigation";
 import { Footer } from "../components/footer";

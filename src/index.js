@@ -11,6 +11,11 @@ import Listnews from './pages/news/listnews';
 import PageNews1 from './pages/news/PageNews1';
 import PageNews2 from './pages/news/PageNews2';
 
+import Lowtahun from './pages/low/lowtahun';
+import Kategori24 from './pages/low/2024/kategori24';
+import Jenjangofl24 from './pages/low/2024/jenjangofl24';
+import Jenjangonl24 from './pages/low/2024/jenjangonl24';
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -31,6 +36,22 @@ const router = createBrowserRouter([
   {
     path: "/pagenews2",
     element: <PageNews2 />
+  },
+  {
+    path: "/lowtahun",
+    element: <Lowtahun />
+  },
+  {
+    path: "/kategori24",
+    element: <Kategori24 />
+  },
+  {
+    path: "/jenjangofl24",
+    element: <Jenjangofl24 />
+  },
+  {
+    path: "/jenjangonl24",
+    element: <Jenjangonl24 />
   }
 ]);
 
