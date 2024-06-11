@@ -2,13 +2,13 @@ import React from "react";
 import { Navigation } from "../../../components/navigation";
 import { Footer } from "../../../components/footer";
 
-const kategori24 = () => {
+const Kategori23 = () => {
   return (
     <>
       <Navigation />
       <section className="low-section">
         <div id="kategori" className="low container">
-          <h2 class="text-center mb-5">List of Winners 2024</h2>
+          <h2 class="text-center mb-5">List of Winners 2023</h2>
           <div className="row">
             <div className="title text-center">
               <h4>
@@ -18,16 +18,16 @@ const kategori24 = () => {
             </div>
             <div className="content text-center">
               <a
-                href="https://drive.google.com/file/d/1R4DqU4bRaqh-BiMuQSufpnRv23wiL-uC/view?usp=sharing"
+                href="https://drive.google.com/file/d/1x9xx0ffQ4PLBhHDd5GHksTQovfKowOkq/view?usp=sharing"
                 target="_blank" rel="noreferrer"
                 className="btn btn-custom"
               >
                 Special Award
               </a>
-              <a href="/jenjangofl24" className="btn btn-custom">
+              <a href="/jenjangofl23" className="btn btn-custom">
                 GYIIF OFFLINE
               </a>
-              <a href="/jenjangonl24" className="btn btn-custom">
+              <a href="/jenjangonl23" className="btn btn-custom">
                 GYIIF ONLINE
               </a>
             </div>
@@ -39,4 +39,4 @@ const kategori24 = () => {
   );
 };
 
-export default kategori24;
+export default Kategori23;

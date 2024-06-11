@@ -15,6 +15,9 @@ import Lowtahun from './pages/low/lowtahun';
 import Kategori24 from './pages/low/2024/kategori24';
 import Jenjangofl24 from './pages/low/2024/jenjangofl24';
 import Jenjangonl24 from './pages/low/2024/jenjangonl24';
+import Kategori23 from './pages/low/2023/kategori23';
+import Jenjangofl23 from './pages/low/2023/jenjangofl23';
+import Jenjangonl23 from './pages/low/2023/jenjangonl23';
 
 const router = createBrowserRouter([
   {
@@ -52,6 +55,18 @@ const router = createBrowserRouter([
   {
     path: "/jenjangonl24",
     element: <Jenjangonl24 />
+  },
+  {
+    path: "/kategori23",
+    element: <Kategori23 />
+  },
+  {
+    path: "/jenjangofl23",
+    element: <Jenjangofl23 />
+  },
+  {
+    path: "/jenjangonl23",
+    element: <Jenjangonl23 />
   }
 ]);
 

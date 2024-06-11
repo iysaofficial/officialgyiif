@@ -8,7 +8,7 @@ const jenjangofl24 = () => {
       <Navigation />
       <section className="low-section">
         <div id="kategori" className="low container">
-          <h2 class="text-center mb-5">List of Winners</h2>
+          <h2 class="text-center mb-5">List of Winners 2024</h2>
           <div className="row">
             <div className="title text-center">
               <h4>
@@ -18,20 +18,20 @@ const jenjangofl24 = () => {
             <div className="content text-center">
               <a
                 href="https://drive.google.com/file/d/1gZzaSjcfRdoEt83v6jIY2FUbcpXOJZ76/view?usp=sharing"
-                target="_blank"
+                target="_blank" rel="noreferrer"
                 className="btn btn-custom"
               >
                 University
               </a>
-              <a href="https://drive.google.com/file/d/1P7DvPc2OTVvAGmW9C6DHD5keBB4_5aRH/view?usp=sharing" target="_blank" className="btn btn-custom">
+              <a href="https://drive.google.com/file/d/1P7DvPc2OTVvAGmW9C6DHD5keBB4_5aRH/view?usp=sharing" target="_blank" rel="noreferrer" className="btn btn-custom">
                 Junior High School
               </a>
               <a
                 href="https://drive.google.com/file/d/16-8-mUAJnRzEu4rTrXcgzXFptMkGKHY2/view?usp=sharing"
-                target="_blank"
+                target="_blank" rel="noreferrer"
                 className="btn btn-custom"
               >
-                Elementary
+                Elementary School
               </a>
             </div>
           </div>
